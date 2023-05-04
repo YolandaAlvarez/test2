@@ -10,6 +10,12 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
           {console.log(process.env.API_ENDPOINT)}
+          <a
+          className="Server-link"
+          href={process.env.API_ENDPOINT}
+          target="_blank"
+          rel="noopener noreferrer"
+        >Server endpoint</a>
         <a
           className="App-link"
           href="https://reactjs.org"
